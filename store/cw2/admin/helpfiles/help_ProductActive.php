@@ -1,0 +1,5 @@
+<h2>Active Products Admin</h2>
+<h3>Search for and List Active Products </h3>
+<p> When you first link to the Active Products List from the admin menu all active products will be retrieved. You can then browse through the products to find the one you are looking for, or you can refine your product list by searching by Product ID or Name. You can set the search to be a &quot;fuzzy&quot; search, that is bring back items that are similar to the search criteria you entered, or you may choose to find records that match the criteria exactly. This is a good way to get to a specific product you want to see. </p>
+<h3>Archived Products List</h3>
+<p> Here you may view a list of products that have been Archived. If you wish to reactivate a product so it will be available in the web and can be edited, simply click the &quot;reactivate&quot; link. The product will be removed from the Archived list and given an Active status. You will then be taken to the Product Admin Form where you can edit the product record if you wish. </p>

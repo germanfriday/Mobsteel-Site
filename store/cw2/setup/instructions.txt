@@ -1,0 +1,17 @@
+Cartweaver 2 PHP Setup Steps
+============================================================================
+
+1. Upload cw2/setup/ and its contents to the server
+
+2. Browse to http://[URL to store]/cw2/setup/
+
+3. Click the "Generate Cartweaver Database" link to add the Cartweaver tables
+   to the MySQL database.
+
+4. Unix\Linux Only: Click the "Determine Supported Server Locales" link to 
+   determine the Locale Code to use in application.php.
+
+Once the above steps are completed, open application.php and either 
+double-click on Cartweaver 2 Setup in the Server Behaviors panel (Window > 
+Server Behaviors) and complete the dialog, or manually enter the appropriate
+settings according to the PDF documentation.

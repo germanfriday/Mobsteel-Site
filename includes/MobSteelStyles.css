@@ -1,0 +1,165 @@
+body {
+
+	margin-left: 0px;
+
+	margin-top: 0px;
+
+	margin-right: 0px;
+
+	margin-bottom: 0px;
+
+	background-color: #333333;
+
+	background-image: url(../images/main_bg.jpg);
+
+	background-repeat: repeat-x;
+
+	background-position: center top;
+
+}
+
+a:link {
+
+	color: #990000;
+
+	text-decoration: none;
+
+}
+
+a:visited {
+
+	text-decoration: none;
+
+	color: #990000;
+
+}
+
+a:hover {
+
+	text-decoration: underline;
+
+	color: #990000;
+
+}
+
+a:active {
+
+	text-decoration: none;
+
+	color: #990000;
+
+}
+
+.HitListText {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	color: #FFFFFF;
+
+}
+
+.FormElements {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+	color: #000000;
+
+}
+
+.PageText {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	color: #000000;
+
+}
+
+.HomeAddress {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: bold;
+
+	color: #FFFFFF;
+
+}
+
+.HomeAddressRed {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: bold;
+
+	color: #FF0000;
+
+}
+
+.CityBG {
+
+	background-image: url(../images/city_bg.jpg);
+
+	background-repeat: no-repeat;
+
+	background-position: center bottom;
+
+}
+
+.ContentBG {
+
+	background-image: url(../images/content_bg.png);
+
+	background-repeat: no-repeat;
+
+	background-position: center top;
+
+}
+
+.Stroke {
+
+	border: 1px solid #000000;
+
+}
+
+.FormElements {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 9px;
+
+	color: #000000;
+
+}
+
+.PageTextBold {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	color: #000000;
+
+	font-weight: bold;
+
+}
+
+.Video_BG {
+	background-image: url(../images/video_shadow.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.Required {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #990000;
+	font-weight: bold;
+}

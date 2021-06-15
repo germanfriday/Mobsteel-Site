@@ -1,0 +1,47 @@
+/*Hide stuff we dont' want */
+#leftNav, #divOrderShippingInfo, h1 {
+	display: none;
+}
+
+/* Style that stuff */
+body {
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+}
+#divMainContent {
+	margin: 0px;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+h2 {
+	font-size: 14px;
+	border-bottom: 1px solid #000;
+}
+table, td, th {
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+td, th {
+	padding: 3px;
+	font-size: 12px;
+}
+th {
+	background-color: #3B3B3B;
+	color: #fff;
+}
+.altRowEven{
+background-color:#FFF;
+}
+.altRowOdd{
+background-color:#EBEBEB;
+}
+table#tblOrderDetails {
+	width: 90%;
+}
+.txt-Error {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #660000;
+}

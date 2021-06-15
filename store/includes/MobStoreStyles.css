@@ -1,0 +1,80 @@
+html,body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	height:100%;
+}
+a:link {
+	color: #D10E1C;
+	text-decoration: underline;
+}
+a:visited {
+	text-decoration: underline;
+	color: #D10E1C;
+}
+a:hover {
+	text-decoration: underline;
+	color: #D10E1C;
+}
+a:active {
+	text-decoration: underline;
+	color: #D10E1C;
+}
+.BlackTextBold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+}
+.RedTextBold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FF0000;
+}
+.BlackText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+}
+.BlackCategoryText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #000000;
+}
+.BlackCategoryText A:link {
+	color: #000000;
+	text-decoration: none;
+}
+.BlackCategoryText A:visited {
+	text-decoration: none;
+	color: #000000;
+}
+.BlackCategoryText A:hover {
+	text-decoration: none;
+	color: #D10E1C;
+}
+.BlackCategoryText A:active {
+	text-decoration: none;
+	color: #D10E1C;
+}
+.HomeFeaturedBG {
+	background-image: url(../images/store_home_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.PageText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+.PageTextBold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	font-weight: bold;
+}
+.Stroke {
+	border: 1px solid #000000;
+}

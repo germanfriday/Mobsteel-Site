@@ -1,0 +1,112 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* Cartweaver 2 CSS HTML Styles */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+body, td, th, p {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+a:link {
+	color: #D10E1C;
+}
+a:visited {
+	color: #D10E1C;
+}
+a:hover {
+	color: #D10E1C;
+	text-decoration:underline;
+}
+a:active {
+	color: #D10E1C;
+	text-decoration:underlinee;
+}
+
+hr{
+	color: #000000;
+	height: 1px;
+	width: 90%;
+}
+
+h1 {
+	color: #000000;
+	font-size: 14px;
+	margin: 0px;
+}
+
+h2 {
+	color: #000000;
+	font-size: 18px;
+}
+
+/*Form Elements*/
+form {
+	margin: 0px;
+}
+
+input, select, textarea {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+ 	font-size: 11px;
+	color: #000000;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* Cartweaver 2 CSS Classes */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*
+NOTE: All styles below are specific to Cartweaver 2.
+You may use the CSS above, or remove it and attach
+your own CSS file in addition to cartweaver.css
+*/
+
+/*Form Styles*/
+input.formCheckbox {
+	border: none;
+	background: transparent;
+}
+
+input.formButton {
+	background: #D10E1C;
+	border-bottom: 1px solid #FF0000;
+	border-left: 1px solid #FF0000;
+	border-right: 1px solid #930813;
+	border-top: 1px solid #930813;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin: 3px 3px 0px 3px;
+}
+
+/* Tables used to display tabular Data. */
+/* Apply to <table> tags only. 
+Example: <table class="tabulardata">*/
+table.tabularData, table.tabularData td, table.tabularData th {
+	border: 1px solid #76685D;
+	border-collapse: collapse;
+}
+table.tabularData td, table.tabularData th{
+	padding: 3px;
+}
+table.tabularData th, table.tabularData th a:link, table.tabularData th a:visited, table.tabularData th a:hover, table.tabularData th a:active  {
+	background: #666666;
+	color: #FFFFFF;
+}
+
+/* altRowEven & altRowOdd are used to style alternating table rows. */
+.altRowEven {
+	background-color: #FFFFFF;
+}
+.altRowOdd{
+	background-color: #FFFFFF;
+}
+
+.smallprint {
+	font-size: 10px;
+}
+
+.pagingLinks {
+	text-align: center;
+}
+
+.errorMessage {
+	color: ##D10E1C;
+	font-weight: bold;
+}

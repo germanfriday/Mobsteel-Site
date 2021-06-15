@@ -1,0 +1,153 @@
+body, td, tr {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333333;
+	background: #FFFFFF;
+	line-height: 1.166;
+	margin: 0px;
+	padding: 0px;
+	font-size: 90%;
+}
+
+a:link, a:visited, a:hover {
+	color: #336699;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+h1, h2, h3, h4, h5{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1{
+	font-size: 120%;
+	color: #425929;
+}
+
+h2{
+	font-size: 114%;
+	color: #425929;
+	border-bottom: 3px double #425929;
+}
+
+h3{
+	font-size: 100%;
+	color: #76685D;
+}
+
+h4{
+	font-size: 100%;
+	color: #5E7D39;
+	margin-top: 1em;
+	margin-bottom: 0px;
+}
+
+ul{
+	list-style-type: square;
+}
+
+ul ul{
+	list-style-type: disc;
+}
+
+ul ul ul{
+	list-style-type: none;
+}
+
+label{
+	font: bold 100% Verdana, Arial, Helvetica, sans-serif;
+	color: #76685D;
+}
+				
+#helphead{
+	margin: 0;
+	padding: 2px 0px;
+	border-bottom: 22px solid #76685D;
+	width: 100%;
+	background: #FFFFFF;
+}
+#helphead h1{
+	margin:0;
+}
+
+#content{
+	margin-left: 200px;
+	padding: 0px 3% 10px 20px;
+}
+
+#content img{
+	float: left;
+	padding: 0px 10px 0px 0px;
+	margin: 0 5px 5px 0;
+}
+#content p {
+	margin-top: 0px;
+}
+
+#footer{
+	clear: both;
+	border: 1px solid #DFDBD9;
+	font-size: 75%;
+	color: #DFDBD9;
+	padding: 10px 10px 10px 10px;
+	margin-top: -1px;
+	text-align: center;
+}
+
+/* Navigation Styles */
+#helpNav{
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: #E7E4E2;
+	border-right: 1px solid #DFDBD9;
+	border-bottom: 1px solid #DFDBD9;
+	font-size: .9em;
+}
+#helpNav h3{
+	color:#76685D;
+	padding:5px;
+	text-align: center;
+}
+#helpNav a:link, #helpNav a:visited{
+	text-decoration: none;
+	width:100%;
+	text-indent:6px;
+	display:block;
+	line-height:1.5em;	
+}
+#helpNav a:hover, #helpNav a:active{
+	background: #A1978F;
+	color: #FFFFFF;
+	text-decoration: none;
+	display:block;
+}
+#helpNav a.current{
+	color: #FFFFFF;
+	background: #76685D;
+}
+
+/* Table Styles */
+table, th, td {
+	border: 1px solid #76685D;
+	border-collapse: collapse;
+}
+caption {
+	text-align: left;
+	font-weight: bold;
+	font-size: .9em;
+}
+td, th{
+	border: 1px solid #76685D;
+	padding: 3px;
+	vertical-align: top;
+}
+th{
+	background: #A1978F;
+	color: #FFFFFF;
+	font-weight: bold;
+	white-space: nowrap;
+}
